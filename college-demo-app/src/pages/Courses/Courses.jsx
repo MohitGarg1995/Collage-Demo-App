@@ -69,13 +69,14 @@ const courses = [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam odio eos distinctio ducimus! Modi quaerat dolores illo accusamus maxime cupiditate culpa minus animi repellat autem!",
   },
 ];
-
 function Courses() {
   return (
     <div className="courses-page">
       <header className="height-75">
         <div className="container h-100 d-flex flex-column align-items-center justify-content-center text-light">
-          <h1 className="text-center fw-semibold">Our Courses</h1>
+          <h1 className="text-center fw-semibold media-query-header">
+            Our Courses
+          </h1>
           <p className="text-center w-75 mb-5">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam odio
             eos distinctio ducimus! Modi quaerat dolores illo accusamus maxime
@@ -94,7 +95,7 @@ function Courses() {
                   <Card.Title className="fs-1 text-danger">
                     {course.title}
                   </Card.Title>
-                  <Card.Text className="text-center">
+                  <Card.Text className="text-center cardText">
                     {course.description}
                   </Card.Text>
                 </Card.ImgOverlay>

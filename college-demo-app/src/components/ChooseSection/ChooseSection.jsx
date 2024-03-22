@@ -5,7 +5,7 @@ function ChooseSection() {
   return (
     <div>
       <div className="container">
-        <h2 className="text-center mb-5">Why choose React University ?</h2>
+        <h2 className="text-center mb-5">Why choose Our University ?</h2>
         <div className="row g-4">
           <div className="col-lg-4">
             <Card className="d-flex align-items-center border-0 h-100">
@@ -23,7 +23,7 @@ function ChooseSection() {
               </div>
               <Card.Body>
                 <Card.Title className="text-center text-capitalize mb-3">
-                  2 trophies received
+                  5 trophies received
                 </Card.Title>
                 <Card.Text className="text-center">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -75,7 +75,7 @@ function ChooseSection() {
               </div>
               <Card.Body>
                 <Card.Title className="text-center text-capitalize mb-3">
-                  3 locations in UK
+                  3 locations in UP
                 </Card.Title>
                 <Card.Text className="text-center">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.

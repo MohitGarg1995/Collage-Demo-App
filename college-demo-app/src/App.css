@@ -70,3 +70,9 @@ nav .navbar-toggler:focus {
     font-size: 2rem;
   }
 }
+@media screen and (max-width: 475px) {
+  .parentDiv .btnWidth {
+    width: 80%;
+    margin-left: 10% !important;
+  }
+}

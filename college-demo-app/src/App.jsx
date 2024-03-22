@@ -32,7 +32,7 @@ function App() {
                 <br></br>
                 University
                 <br></br>
-                Muradabad
+                Moradabad
               </span>
             </Link>
           </Navbar.Brand>
@@ -73,11 +73,11 @@ function App() {
       <footer>
         <div className="container my-5">
           <div className="row d-flex justify-content-between align-items-center">
-            <div className="col-md-4">
+            <div className="col-md-4 parentDiv">
               <Link to="/contact">
                 <button
                   type="button"
-                  className="btn btn-outline-danger btn-lg mb-5 mb-md-4"
+                  className="btn btn-outline-danger btn-lg mb-5 mb-md-4 btnWidth"
                 >
                   Get In Touch
                 </button>
@@ -181,13 +181,28 @@ function App() {
                 <div className="col-12 col-md-6 col-lg-7">
                   <ul className="list-unstyled mb-0">
                     <li>
-                      <p>Main Address - 47 Street Name, London UK</p>
+                      <p>
+                        <span class="fw-bold"> Main Address</span> - Station
+                        Road, Moradabad UP, India - 244001
+                      </p>
                     </li>
                     <li>
-                      <p>Phone Number - 0900800700</p>
+                      <p>
+                        <span class="fw-bold"> Phone Number</span> - 0900800700,
+                        98756123
+                      </p>
                     </li>
                     <li>
-                      <p>Email - react@university.co.uk</p>
+                      <p>
+                        <span class="fw-bold"> Email </span>-
+                        hinducollegembd@gmail.com, hinducollegepay@gmail.com
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        <span class="fw-bold"> Website </span>-
+                        hinducollege.edu.in
+                      </p>
                     </li>
                   </ul>
                 </div>
@@ -198,7 +213,8 @@ function App() {
         <div className="bg-body-tertiary">
           <div className="container">
             <p className="p-3 m-0 text-center">
-              copyright @ made by Ionut Cora
+              copyright @ 2021 . Designed by <a href="#">Dash Solution</a> . All
+              rights reserved.
             </p>
           </div>
         </div>

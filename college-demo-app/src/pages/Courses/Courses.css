@@ -13,3 +13,16 @@
 .courses-page .card:hover {
   cursor: pointer;
 }
+
+@media screen and (max-width: 475px) {
+  .media-query-header {
+    margin-top: 200px;
+  }
+  .height {
+    border: 2px solid blue !important;
+  }
+
+  .cardText {
+    font-size: 15px !important;
+  }
+}

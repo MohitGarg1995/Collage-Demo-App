@@ -14,8 +14,8 @@ This project is a university website built using React.js, Bootstrap, HTML, CSS,
 
 # Features
 
-# Responsive design using Bootstrap for a seamless experience on various devices.
+- Responsive design using Bootstrap for a seamless experience on various devices.
 
-# Dynamic content loading with React.js for an interactive user interface.
+- Dynamic content loading with React.js for an interactive user interface.
 
-# Custom styling with CSS to enhance the visual appeal of the website.
+- Custom styling with CSS to enhance the visual appeal of the website.
